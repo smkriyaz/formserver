@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration form</h1>
+    <form action="/form" method="post">                  
+        <label for="">Username:</label>
+        <input type="text" name="us1" required>
+        <br>
+        <br>
+        <label for="">Password:</label>
+        <input type="password" name="ps1" id="" required>
+        <br>
+        <br>
+        <label for="">Email:</label>
+        <input type="email" name="em1" id="" required>
+        <br>
+        <br>
+        <label for="">Age:</label>
+        <input type="number" name="ag1" id="" required >
+        <br>
+        <br>
+        <label for="">Mobile Number:</label>
+        <input type="number" name="ph1" required>
+        <br>
+        <br>
+        <button type="submit" name="su1">submit</button>
+
+
+    </form>
+
+    <style>
+        h1{
+            text-align: center ;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            /* width:20%; */
+           justify-content: center;
+           align-items: center;
+           text-align: center;
+
+        }
+        body{
+            background-color: antiquewhite;
+        }
+    </style>
+</body>
+</html>
